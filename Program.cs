@@ -26,9 +26,13 @@
                     string id = Console.ReadLine();
                     code.email(id);
                     break;
+                case 4:
+                    Console.WriteLine("Enter Mobile Number");
+                    string number = Console.ReadLine();
+                    code.MobileNumber(number);
+                    break;
 
             }
-
 
         }
     }
