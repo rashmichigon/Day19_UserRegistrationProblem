@@ -31,6 +31,11 @@
                     string number = Console.ReadLine();
                     code.MobileNumber(number);
                     break;
+                case 5:
+                    Console.WriteLine("Enter The Password");
+                    string Password = Console.ReadLine();
+                    code.Password(Password);
+                    break;
 
             }
 

@@ -50,6 +50,17 @@ namespace Day19_UserRegistrationProblem
             Console.WriteLine(number + " is a invalid Number");
             return;
         }
+        public void Password(string password)
+        {
+            const string passwordRegex = "^[A-z]{8,}$";
+            if (Regex.IsMatch(password, passwordRegex))
+            {
+                Console.WriteLine(password + " is a valid Password");
+                return;
+            }
+            Console.WriteLine(password + " is a invalid Password");
+            return;
+        }
 
     }
 }
