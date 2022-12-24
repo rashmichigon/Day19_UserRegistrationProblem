@@ -21,6 +21,11 @@
                     string lastName = Console.ReadLine();
                     code.name(lastName);
                     break;
+                case 3:
+                    Console.WriteLine("Enter Enail-id");
+                    string id = Console.ReadLine();
+                    code.email(id);
+                    break;
 
             }
 
